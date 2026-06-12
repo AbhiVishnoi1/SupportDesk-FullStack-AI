@@ -1,4 +1,4 @@
-﻿const API_BASE_URL = 'https://supportdesk-fullstack-ai.onrender.com'
+﻿const API_BASE_URL = "https://supportdesk-fullstack-ai.onrender.com/api";
 
 async function request(path, options = {}) {
   const response = await fetch(`${API_BASE_URL}${path}`, {
